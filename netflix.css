@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(./images/bgnetflix.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+nav{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10rem;
+}
+#imgg{
+    width: 190px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    padding-right: 5px;
+    margin-right: 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding-left: 2.5rem;
+}
+option{  
+    color: black;
+    background-color: white;
+}
+.logocont{
+    position: relative;
+}
+.fa-language{
+    position: relative;
+    left: -46%;
+}
+#middle{
+    text-align: center;
+    color: white;
+}
+#middle > h1{
+    font-size: 2.7rem;
+    margin-top: 12rem;
+    margin-bottom: 0;
+    font-weight: 1000;
+}
+#middle > p{
+    font-size: 1.7rem;
+    margin: 20px 0 0 0;
+    font-weight: 450;
+}
+#middle > h3{
+    font-size: 20px;
+    font-weight: 50;
+    margin-top: 20px;
+}
+#middle > input{
+    width: 22%;
+    height: 2.9rem;
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgb(174, 166, 166);
+    padding-left: 1.5rem;
+}
+#middle > button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4px;
+}
+#middle > ::placeholder{
+    font-size: 16px;
+    color: rgb(174, 166, 166);
+}
+#tvcont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40rem;
+}
+#tvcont > div{
+    width: 48%;
+}
+#enjoy{
+    color: white;
+}
+#enjoy > h2{
+    font-size: 3rem;
+}
+#enjoy > p{
+    font-size: 1.5rem;
+}
+#video{
+    position: relative;
+}
+#video > img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#video > video{
+
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 74%;
+    z-index: 1;
+}
+hr{
+    font-size: 1rem;
+}
+#rightt{
+    color: white;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+
+@media(max-width:600px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-image: url(./images/bgnetflix.jpg);
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    nav{
+        background-color: transparent;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    #imgg{
+        width: 8rem;
+    }
+    button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    select{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 20px;
+        padding-right: 5px;
+        margin-right: 0;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        padding-left: 2.5rem;
+    }
+    #middle > h1{
+        font-size: 1.8rem;
+        margin-top: 6.7rem;
+        margin-bottom: 0;
+        font-weight: 1000;
+    }
+    #middle > p{
+        font-size: 1.1rem;
+        margin: 20px 0 0 0;
+        font-weight: 450;
+    }
+    #middle > h3{
+        font-size: 1rem;
+        font-weight: 200;
+        margin-top: 20px;
+    }
+    #middle > input{
+        width: 79%;
+        height: 2.9rem;
+        color: white;
+        border-radius: 4px;
+        background-color: transparent;
+        border: 1px solid rgb(174, 166, 166);
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    #middle > button{
+        width: 10rem;
+        height: 3rem;
+        border-radius: 4px;
+    }
+    #tvcont{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40rem;
+    }
+}
